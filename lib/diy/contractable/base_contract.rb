@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'diy/carrierable'
 require 'diy/contractable/base_contract/chainable'
 
 module DIY
