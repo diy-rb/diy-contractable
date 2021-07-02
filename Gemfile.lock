@@ -1,0 +1,40 @@
+GIT
+  remote: https://github.com/diy-rb/diy-carrierable.git
+  revision: 78ae5732f03b94b31806118c1cab8029061d32d1
+  specs:
+    diy-carrierable (1.0.0)
+
+PATH
+  remote: .
+  specs:
+    diy-contractable (1.0.0)
+      diy-carrierable (~> 1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.4.4)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  diy-carrierable!
+  diy-contractable!
+  rspec (~> 3.10)
+
+BUNDLED WITH
+   2.1.4
